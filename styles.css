@@ -1,0 +1,16 @@
+
+
+.grid-container {
+    display: grid;
+   grid-template-columns: repeat(6, 1fr);
+   grid-template-rows: repeat(6, 1fr);
+   gap: 4px;
+   min-height: 100vh;
+}
+
+.sketchbox {
+    background-color: aqua;
+    display: inline-block;
+    width: auto;
+    height: auto;
+}
