@@ -9,8 +9,26 @@
 }
 
 .sketchbox {
-    background-color: aqua;
+    background-color: white;
     display: inline-block;
     width: auto;
     height: auto;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    padding: 24px 0px;
+}
+
+button {
+    background-color: coral;
+    border: none;
+    color: antiquewhite;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+button:active {
+    background-color: #e9754a;
 }
